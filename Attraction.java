@@ -10,6 +10,7 @@ abstract class Attraction {
     private void setValues(double price, double surfaceArea) {
         this.price = price;
         this.surfaceArea = surfaceArea;
+        timesRidden = 0;
     }
 
     protected void incrementTimesRidden() {
